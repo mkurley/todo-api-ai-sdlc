@@ -1,0 +1,11 @@
+---
+description: AI-SDLC guardrails — implement only what spec.md allows
+alwaysApply: true
+---
+
+# AI-SDLC guardrails
+- Read intent.md and spec.md before changing code.
+- Implement only what spec.md allows. Do not invent endpoints.
+- Update spec.md before adding a new endpoint.
+- Write or update failing tests first, then make them pass.
+- Stop when `dotnet test` is green. Do not refactor beyond the current spec.
